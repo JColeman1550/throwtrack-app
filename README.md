@@ -1,4 +1,4 @@
-# Throw Track App
+# Throw Track App (layout/mock up)
 
 ## Overview
 Throw Track is a web application designed to help coaches and parents track the performance of youth baseball pitchers. The app allows users to easily log pitch counts, record pitch locations in a mock strike zone, and monitor pitcher development over time. Built with a simple user interface, this app aims to make tracking pitchers' progress quick and efficient.
@@ -8,6 +8,9 @@ Throw Track is a web application designed to help coaches and parents track the 
 - **Strike Zone Layout**: Users can tap on a grid representing the strike zone to record pitch locations for each throw.
 - **End Session Button**: Log the current session's data, reset the pitch count, and prepare for the next session.
 - **Real-Time Data Sync**: Integrated with Firebase for real-time data syncing, allowing coaches and parents to access pitch and strike zone information instantly.
+
+<img src="">
+<img src="">
 
 ## Tech Stack
 - **HTML/CSS**: The front-end layout is built with HTML, styled using CSS.
