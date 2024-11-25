@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pitch Location Tracker</title>
+  <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+  <div class="counter-container">
+    <h1 id="pitch-count">0</h1>
+    <div class="button-container">
+      <button onclick="decrementCount()" class="counter-button">-</button>
+      <button onclick="incrementCount()" class="counter-button">+</button>
+    </div>
+  </div>
+
+  <!-- Strike Zone Layout -->
+  <div class="strikezone-container">
+    <h2>Mock Strike Zone</h2>
+    <div class="strikezone">
+      <!-- Strike zone grid -->
+      <div class="strikezone-row">
+        <div class="strikezone-box" data-x="1" data-y="1">Pitches: 0</div>
+        <div class="strikezone-box" data-x="2" data-y="1">Pitches: 0</div>
+        <div class="strikezone-box" data-x="3" data-y="1">Pitches: 0</div>
+      </div>
+      <div class="strikezone-row">
+        <div class="strikezone-box" data-x="1" data-y="2">Pitches: 0</div>
+        <div class="strikezone-box" data-x="2" data-y="2">Pitches: 0</div>
+        <div class="strikezone-box" data-x="3" data-y="2">Pitches: 0</div>
+      </div>
+      <div class="strikezone-row">
+        <div class="strikezone-box" data-x="1" data-y="3">Pitches: 0</div>
+        <div class="strikezone-box" data-x="2" data-y="3">Pitches: 0</div>
+        <div class="strikezone-box" data-x="3" data-y="3">Pitches: 0</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Session Button -->
+  <div class="end-session-container">
+    <button onclick="endSession()" class="end-session-button">End Session/Inning</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
