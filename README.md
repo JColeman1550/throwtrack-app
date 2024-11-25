@@ -9,7 +9,7 @@ Throw Track is a web application designed to help coaches and parents track the 
 - **End Session Button**: Log the current session's data, reset the pitch count, and prepare for the next session.
 - **Real-Time Data Sync**: Integrated with Firebase for real-time data syncing, allowing coaches and parents to access pitch and strike zone information instantly.
 
-<img src="">
+<img src="https://github.com/JColeman1550/throwtrack-app/blob/main/sz-mockup.png?raw=true">
 <img src="">
 
 ## Tech Stack
